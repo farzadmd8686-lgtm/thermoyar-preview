@@ -1,0 +1,22 @@
+{
+  "status": "PRE-LAUNCH DRAFT — NOT DEPLOYED",
+  "domain": "https://thermoyar.ir/",
+  "paths": {
+    "index.html": "Homepage V61",
+    "buying-guide.html": "Buying guide V25",
+    "errors.html": "Error guide V32"
+  },
+  "canonicalRule": "Canonical URLs must point to deployed production paths; remove noindex only after launch approval and final checks.",
+  "previewRule": "GitHub Pages staging must retain noindex. Do not publish these drafts to repository root.",
+  "checks": [
+    "Verify production domain DNS/HTTPS and ownership",
+    "Verify click-to-call 10:00–22:00 Asia/Tehran on actual phone",
+    "Verify 3-way navigation, forms and error-code lookup on phone",
+    "Check keyboard navigation and visible focus",
+    "Check image sizes, page speed and layout shift",
+    "Check title, descriptions, canonicals and sitemap response",
+    "Check robots.txt and sitemap.xml on final production host",
+    "Confirm no personal phone number exposure outside approved CTA behavior",
+    "Explicit deployment approval"
+  ]
+}
