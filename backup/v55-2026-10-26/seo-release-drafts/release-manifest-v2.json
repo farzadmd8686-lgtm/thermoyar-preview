@@ -1,0 +1,45 @@
+{
+  "status": "READY_FOR_DEPLOYMENT_PREPARATION_NOT_PUBLISHED",
+  "approvedMobileTests": "User confirmed all five checks for V62/V26/V33 on 2026-10-26",
+  "sourceRepo": "farzadmd8686-lgtm/thermoyar-preview",
+  "productionRepo": "farzadmd8686-lgtm/thermotech-website (DO NOT MODIFY WITHOUT EXPLICIT APPROVAL)",
+  "site": "https://thermoyar.ir",
+  "routes": [
+    {
+      "source": "backup/v55-2026-10-26/index-v62-validation-staging.html",
+      "destination": "/index.html",
+      "canonical": "https://thermoyar.ir/"
+    },
+    {
+      "source": "backup/v55-2026-10-26/buying-guide-v26-validation-staging.html",
+      "destination": "/buying-guide.html",
+      "canonical": "https://thermoyar.ir/buying-guide.html"
+    },
+    {
+      "source": "backup/v55-2026-10-26/errors-v33-validation-staging.html",
+      "destination": "/errors.html",
+      "canonical": "https://thermoyar.ir/errors.html"
+    }
+  ],
+  "requiredBeforeLaunch": [
+    "Preserve existing assets/ folder paths when deploying HTML",
+    "Rewrite all three-page navigation links to production paths, including anchors",
+    "Replace staging canonical with final production URLs",
+    "Remove noindex only from authorized production copies",
+    "Place sitemap.xml and robots.txt at actual production web root, not preview repo",
+    "Verify real domain DNS and HTTPS",
+    "Verify actual production URLs and page status 200",
+    "Check image loads and CSS background URLs",
+    "Verify call button 10:00–22:00 Tehran and safe outside-hours behavior",
+    "Confirm phone number and service-area business information with owner",
+    "Re-run five mobile checks on deployed host",
+    "Request explicit user approval before any production write or launch"
+  ],
+  "locked": [
+    "Homepage V62",
+    "Buying guide V26",
+    "Error guide V33"
+  ],
+  "previewIndexing": "Keep noindex,follow on all preview pages",
+  "deployed": false
+}
