@@ -1,0 +1,335 @@
+{
+  "schema_version": 1,
+  "scope": "independent research batch; locked website unchanged",
+  "created_on": "2026-10-26",
+  "count": 31,
+  "policy": {
+    "official_first": true,
+    "then": "service/dealer/specialist",
+    "missing": "توضیحی برای این کد خطا وجود ندارد.",
+    "do_not_infer_across_models": true,
+    "always_show_contact": true
+  },
+  "records": [
+    {
+      "brand": "butan",
+      "model": "Parma Digital",
+      "code": "E01",
+      "meaning": "اشکال در روشن شدن مشعل یا تشکیل شعله",
+      "source": "https://tbdtco.com/butane-package-error-codes/",
+      "source_priority": "specialist_after_no_accessible_manufacturer_reference",
+      "status": "source_reviewed",
+      "public_note": "این توضیح راهنمای اولیه است؛ دستگاه را باز یا دستکاری نکنید و برای بررسی دقیق با متخصص تماس بگیرید."
+    },
+    {
+      "brand": "butan",
+      "model": "Parma Digital",
+      "code": "E02",
+      "meaning": "فعال شدن کلید حرارتی به علت افزایش دمای مدار گرمایش",
+      "source": "https://tbdtco.com/butane-package-error-codes/",
+      "source_priority": "specialist_after_no_accessible_manufacturer_reference",
+      "status": "source_reviewed",
+      "public_note": "این توضیح راهنمای اولیه است؛ دستگاه را باز یا دستکاری نکنید و برای بررسی دقیق با متخصص تماس بگیرید."
+    },
+    {
+      "brand": "butan",
+      "model": "Parma Digital",
+      "code": "E03",
+      "meaning": "اختلال یا فعال شدن سیستم ایمنی تخلیه دود",
+      "source": "https://tbdtco.com/butane-package-error-codes/",
+      "source_priority": "specialist_after_no_accessible_manufacturer_reference",
+      "status": "source_reviewed",
+      "public_note": "این توضیح راهنمای اولیه است؛ دستگاه را باز یا دستکاری نکنید و برای بررسی دقیق با متخصص تماس بگیرید."
+    },
+    {
+      "brand": "butan",
+      "model": "Parma Digital",
+      "code": "E04",
+      "meaning": "کافی نبودن فشار آب مدار گرمایش",
+      "source": "https://tbdtco.com/butane-package-error-codes/",
+      "source_priority": "specialist_after_no_accessible_manufacturer_reference",
+      "status": "source_reviewed",
+      "public_note": "این توضیح راهنمای اولیه است؛ دستگاه را باز یا دستکاری نکنید و برای بررسی دقیق با متخصص تماس بگیرید."
+    },
+    {
+      "brand": "butan",
+      "model": "Parma Digital",
+      "code": "E06",
+      "meaning": "اشکال در حسگر دمای آب گرم مصرفی",
+      "source": "https://tbdtco.com/butane-package-error-codes/",
+      "source_priority": "specialist_after_no_accessible_manufacturer_reference",
+      "status": "source_reviewed",
+      "public_note": "این توضیح راهنمای اولیه است؛ دستگاه را باز یا دستکاری نکنید و برای بررسی دقیق با متخصص تماس بگیرید."
+    },
+    {
+      "brand": "butan",
+      "model": "Parma Digital",
+      "code": "E07",
+      "meaning": "اشکال در حسگر دمای مدار گرمایش",
+      "source": "https://tbdtco.com/butane-package-error-codes/",
+      "source_priority": "specialist_after_no_accessible_manufacturer_reference",
+      "status": "source_reviewed",
+      "public_note": "این توضیح راهنمای اولیه است؛ دستگاه را باز یا دستکاری نکنید و برای بررسی دقیق با متخصص تماس بگیرید."
+    },
+    {
+      "brand": "butan",
+      "model": "Parma Digital",
+      "code": "E11",
+      "meaning": "تشخیص غیرمنتظره شعله پیش از فرمان برد",
+      "source": "https://tbdtco.com/butane-package-error-codes/",
+      "source_priority": "specialist_after_no_accessible_manufacturer_reference",
+      "status": "source_reviewed",
+      "public_note": "این توضیح راهنمای اولیه است؛ دستگاه را باز یا دستکاری نکنید و برای بررسی دقیق با متخصص تماس بگیرید."
+    },
+    {
+      "brand": "butan",
+      "model": "Perla Pro RSi",
+      "code": "E01",
+      "meaning": "اشکال در روشن شدن مشعل یا تشکیل شعله",
+      "source": "https://tbdtco.com/butane-package-error-codes/",
+      "source_priority": "specialist_after_no_accessible_manufacturer_reference",
+      "status": "source_reviewed",
+      "public_note": "این توضیح راهنمای اولیه است؛ دستگاه را باز یا دستکاری نکنید و برای بررسی دقیق با متخصص تماس بگیرید."
+    },
+    {
+      "brand": "butan",
+      "model": "Perla Pro RSi",
+      "code": "E02",
+      "meaning": "فعال شدن کلید حرارتی به علت افزایش دمای مدار گرمایش",
+      "source": "https://tbdtco.com/butane-package-error-codes/",
+      "source_priority": "specialist_after_no_accessible_manufacturer_reference",
+      "status": "source_reviewed",
+      "public_note": "این توضیح راهنمای اولیه است؛ دستگاه را باز یا دستکاری نکنید و برای بررسی دقیق با متخصص تماس بگیرید."
+    },
+    {
+      "brand": "butan",
+      "model": "Perla Pro RSi",
+      "code": "E03",
+      "meaning": "اختلال یا فعال شدن سیستم ایمنی تخلیه دود",
+      "source": "https://tbdtco.com/butane-package-error-codes/",
+      "source_priority": "specialist_after_no_accessible_manufacturer_reference",
+      "status": "source_reviewed",
+      "public_note": "این توضیح راهنمای اولیه است؛ دستگاه را باز یا دستکاری نکنید و برای بررسی دقیق با متخصص تماس بگیرید."
+    },
+    {
+      "brand": "butan",
+      "model": "Perla Pro RSi",
+      "code": "E04",
+      "meaning": "کافی نبودن فشار آب مدار گرمایش",
+      "source": "https://tbdtco.com/butane-package-error-codes/",
+      "source_priority": "specialist_after_no_accessible_manufacturer_reference",
+      "status": "source_reviewed",
+      "public_note": "این توضیح راهنمای اولیه است؛ دستگاه را باز یا دستکاری نکنید و برای بررسی دقیق با متخصص تماس بگیرید."
+    },
+    {
+      "brand": "butan",
+      "model": "Perla Pro RSi",
+      "code": "E06",
+      "meaning": "اشکال در حسگر دمای آب گرم مصرفی",
+      "source": "https://tbdtco.com/butane-package-error-codes/",
+      "source_priority": "specialist_after_no_accessible_manufacturer_reference",
+      "status": "source_reviewed",
+      "public_note": "این توضیح راهنمای اولیه است؛ دستگاه را باز یا دستکاری نکنید و برای بررسی دقیق با متخصص تماس بگیرید."
+    },
+    {
+      "brand": "butan",
+      "model": "Perla Pro RSi",
+      "code": "E07",
+      "meaning": "اشکال در حسگر دمای مدار گرمایش",
+      "source": "https://tbdtco.com/butane-package-error-codes/",
+      "source_priority": "specialist_after_no_accessible_manufacturer_reference",
+      "status": "source_reviewed",
+      "public_note": "این توضیح راهنمای اولیه است؛ دستگاه را باز یا دستکاری نکنید و برای بررسی دقیق با متخصص تماس بگیرید."
+    },
+    {
+      "brand": "butan",
+      "model": "Perla Pro RSi",
+      "code": "E11",
+      "meaning": "تشخیص غیرمنتظره شعله پیش از فرمان برد",
+      "source": "https://tbdtco.com/butane-package-error-codes/",
+      "source_priority": "specialist_after_no_accessible_manufacturer_reference",
+      "status": "source_reviewed",
+      "public_note": "این توضیح راهنمای اولیه است؛ دستگاه را باز یا دستکاری نکنید و برای بررسی دقیق با متخصص تماس بگیرید."
+    },
+    {
+      "brand": "butan",
+      "model": "Perla Pro i",
+      "code": "E01",
+      "meaning": "اشکال در روشن شدن مشعل یا تشکیل شعله",
+      "source": "https://tbdtco.com/butane-package-error-codes/",
+      "source_priority": "specialist_after_no_accessible_manufacturer_reference",
+      "status": "source_reviewed",
+      "public_note": "این توضیح راهنمای اولیه است؛ دستگاه را باز یا دستکاری نکنید و برای بررسی دقیق با متخصص تماس بگیرید."
+    },
+    {
+      "brand": "butan",
+      "model": "Perla Pro i",
+      "code": "E02",
+      "meaning": "فعال شدن کلید حرارتی به علت افزایش دمای مدار گرمایش",
+      "source": "https://tbdtco.com/butane-package-error-codes/",
+      "source_priority": "specialist_after_no_accessible_manufacturer_reference",
+      "status": "source_reviewed",
+      "public_note": "این توضیح راهنمای اولیه است؛ دستگاه را باز یا دستکاری نکنید و برای بررسی دقیق با متخصص تماس بگیرید."
+    },
+    {
+      "brand": "butan",
+      "model": "Perla Pro i",
+      "code": "E03",
+      "meaning": "اختلال یا فعال شدن سیستم ایمنی تخلیه دود",
+      "source": "https://tbdtco.com/butane-package-error-codes/",
+      "source_priority": "specialist_after_no_accessible_manufacturer_reference",
+      "status": "source_reviewed",
+      "public_note": "این توضیح راهنمای اولیه است؛ دستگاه را باز یا دستکاری نکنید و برای بررسی دقیق با متخصص تماس بگیرید."
+    },
+    {
+      "brand": "butan",
+      "model": "Perla Pro i",
+      "code": "E04",
+      "meaning": "کافی نبودن فشار آب مدار گرمایش",
+      "source": "https://tbdtco.com/butane-package-error-codes/",
+      "source_priority": "specialist_after_no_accessible_manufacturer_reference",
+      "status": "source_reviewed",
+      "public_note": "این توضیح راهنمای اولیه است؛ دستگاه را باز یا دستکاری نکنید و برای بررسی دقیق با متخصص تماس بگیرید."
+    },
+    {
+      "brand": "butan",
+      "model": "Perla Pro i",
+      "code": "E06",
+      "meaning": "اشکال در حسگر دمای آب گرم مصرفی",
+      "source": "https://tbdtco.com/butane-package-error-codes/",
+      "source_priority": "specialist_after_no_accessible_manufacturer_reference",
+      "status": "source_reviewed",
+      "public_note": "این توضیح راهنمای اولیه است؛ دستگاه را باز یا دستکاری نکنید و برای بررسی دقیق با متخصص تماس بگیرید."
+    },
+    {
+      "brand": "butan",
+      "model": "Perla Pro i",
+      "code": "E07",
+      "meaning": "اشکال در حسگر دمای مدار گرمایش",
+      "source": "https://tbdtco.com/butane-package-error-codes/",
+      "source_priority": "specialist_after_no_accessible_manufacturer_reference",
+      "status": "source_reviewed",
+      "public_note": "این توضیح راهنمای اولیه است؛ دستگاه را باز یا دستکاری نکنید و برای بررسی دقیق با متخصص تماس بگیرید."
+    },
+    {
+      "brand": "butan",
+      "model": "Perla Pro i",
+      "code": "E11",
+      "meaning": "تشخیص غیرمنتظره شعله پیش از فرمان برد",
+      "source": "https://tbdtco.com/butane-package-error-codes/",
+      "source_priority": "specialist_after_no_accessible_manufacturer_reference",
+      "status": "source_reviewed",
+      "public_note": "این توضیح راهنمای اولیه است؛ دستگاه را باز یا دستکاری نکنید و برای بررسی دقیق با متخصص تماس بگیرید."
+    },
+    {
+      "brand": "butan",
+      "model": "Bita Sealed",
+      "code": "red_slow_0.5s",
+      "display": "چشمک‌زدن چراغ قرمز با فاصله حدود نیم ثانیه",
+      "meaning": "احتمال فعال شدن کلید حرارتی یا یکی از حفاظت‌های ایمنی",
+      "source": "https://tbdtco.com/butane-package-error-codes/",
+      "source_priority": "specialist_after_no_accessible_manufacturer_reference",
+      "status": "source_reviewed",
+      "public_note": "از بازکردن دستگاه خودداری کنید؛ وضعیت چراغ‌ها را هنگام تماس به متخصص اطلاع دهید."
+    },
+    {
+      "brand": "butan",
+      "model": "Bita Sealed",
+      "code": "red_steady",
+      "display": "چراغ قرمز ثابت",
+      "meaning": "این وضعیت می‌تواند با تشکیل نشدن شعله، فشار آب یا ایمنی خروج دود مرتبط باشد و به‌تنهایی علت قطعی را مشخص نمی‌کند",
+      "source": "https://tbdtco.com/butane-package-error-codes/",
+      "source_priority": "specialist_after_no_accessible_manufacturer_reference",
+      "status": "source_reviewed",
+      "public_note": "از بازکردن دستگاه خودداری کنید؛ وضعیت چراغ‌ها را هنگام تماس به متخصص اطلاع دهید."
+    },
+    {
+      "brand": "butan",
+      "model": "Bita Sealed",
+      "code": "red_fast_0.2s",
+      "display": "چشمک‌زدن سریع چراغ قرمز حدود ۰٫۲ ثانیه",
+      "meaning": "احتمال اشکال در حسگر دمای مدار گرمایش",
+      "source": "https://tbdtco.com/butane-package-error-codes/",
+      "source_priority": "specialist_after_no_accessible_manufacturer_reference",
+      "status": "source_reviewed",
+      "public_note": "از بازکردن دستگاه خودداری کنید؛ وضعیت چراغ‌ها را هنگام تماس به متخصص اطلاع دهید."
+    },
+    {
+      "brand": "butan",
+      "model": "Bita Sealed",
+      "code": "green_blink_0.5s",
+      "display": "چشمک‌زدن چراغ سبز حدود نیم ثانیه",
+      "meaning": "ممکن است به وضعیت فشار آب یا حفاظت خروج دود مربوط باشد",
+      "source": "https://tbdtco.com/butane-package-error-codes/",
+      "source_priority": "specialist_after_no_accessible_manufacturer_reference",
+      "status": "source_reviewed",
+      "public_note": "از بازکردن دستگاه خودداری کنید؛ وضعیت چراغ‌ها را هنگام تماس به متخصص اطلاع دهید."
+    },
+    {
+      "brand": "butan",
+      "model": "Bita Sealed",
+      "code": "both_steady",
+      "display": "روشن بودن ثابت چراغ‌های سبز و قرمز",
+      "meaning": "احتمال اشکال در حسگر دمای آب گرم مصرفی",
+      "source": "https://tbdtco.com/butane-package-error-codes/",
+      "source_priority": "specialist_after_no_accessible_manufacturer_reference",
+      "status": "source_reviewed",
+      "public_note": "از بازکردن دستگاه خودداری کنید؛ وضعیت چراغ‌ها را هنگام تماس به متخصص اطلاع دهید."
+    },
+    {
+      "brand": "butan",
+      "model": "Bita Open",
+      "code": "red_slow_0.5s",
+      "display": "چشمک‌زدن چراغ قرمز با فاصله حدود نیم ثانیه",
+      "meaning": "احتمال فعال شدن کلید حرارتی یا یکی از حفاظت‌های ایمنی",
+      "source": "https://tbdtco.com/butane-package-error-codes/",
+      "source_priority": "specialist_after_no_accessible_manufacturer_reference",
+      "status": "source_reviewed",
+      "public_note": "از بازکردن دستگاه خودداری کنید؛ وضعیت چراغ‌ها را هنگام تماس به متخصص اطلاع دهید."
+    },
+    {
+      "brand": "butan",
+      "model": "Bita Open",
+      "code": "red_steady",
+      "display": "چراغ قرمز ثابت",
+      "meaning": "این وضعیت می‌تواند با تشکیل نشدن شعله، فشار آب یا ایمنی خروج دود مرتبط باشد و به‌تنهایی علت قطعی را مشخص نمی‌کند",
+      "source": "https://tbdtco.com/butane-package-error-codes/",
+      "source_priority": "specialist_after_no_accessible_manufacturer_reference",
+      "status": "source_reviewed",
+      "public_note": "از بازکردن دستگاه خودداری کنید؛ وضعیت چراغ‌ها را هنگام تماس به متخصص اطلاع دهید."
+    },
+    {
+      "brand": "butan",
+      "model": "Bita Open",
+      "code": "red_fast_0.2s",
+      "display": "چشمک‌زدن سریع چراغ قرمز حدود ۰٫۲ ثانیه",
+      "meaning": "احتمال اشکال در حسگر دمای مدار گرمایش",
+      "source": "https://tbdtco.com/butane-package-error-codes/",
+      "source_priority": "specialist_after_no_accessible_manufacturer_reference",
+      "status": "source_reviewed",
+      "public_note": "از بازکردن دستگاه خودداری کنید؛ وضعیت چراغ‌ها را هنگام تماس به متخصص اطلاع دهید."
+    },
+    {
+      "brand": "butan",
+      "model": "Bita Open",
+      "code": "green_blink_0.5s",
+      "display": "چشمک‌زدن چراغ سبز حدود نیم ثانیه",
+      "meaning": "ممکن است به وضعیت فشار آب یا حفاظت خروج دود مربوط باشد",
+      "source": "https://tbdtco.com/butane-package-error-codes/",
+      "source_priority": "specialist_after_no_accessible_manufacturer_reference",
+      "status": "source_reviewed",
+      "public_note": "از بازکردن دستگاه خودداری کنید؛ وضعیت چراغ‌ها را هنگام تماس به متخصص اطلاع دهید."
+    },
+    {
+      "brand": "butan",
+      "model": "Bita Open",
+      "code": "both_steady",
+      "display": "روشن بودن ثابت چراغ‌های سبز و قرمز",
+      "meaning": "احتمال اشکال در حسگر دمای آب گرم مصرفی",
+      "source": "https://tbdtco.com/butane-package-error-codes/",
+      "source_priority": "specialist_after_no_accessible_manufacturer_reference",
+      "status": "source_reviewed",
+      "public_note": "از بازکردن دستگاه خودداری کنید؛ وضعیت چراغ‌ها را هنگام تماس به متخصص اطلاع دهید."
+    }
+  ]
+}
