@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "stage": "independent research rules; not connected to locked V7",
+  "locale": "fa-IR",
+  "goal": "initial guidance then specialist call",
+  "inputs": [
+    {
+      "key": "area",
+      "values": [
+        "under80",
+        "80-120",
+        "120-180",
+        "over180"
+      ],
+      "meaning": "area band, not precise heat load"
+    },
+    {
+      "key": "bath",
+      "values": [
+        "1",
+        "2",
+        "3"
+      ],
+      "meaning": "bathroom count, not simultaneous flow"
+    },
+    {
+      "key": "floor",
+      "values": [
+        "middle",
+        "top",
+        "ground"
+      ],
+      "meaning": "exposure proxy"
+    },
+    {
+      "key": "insulation",
+      "values": [
+        "good",
+        "average",
+        "poor"
+      ],
+      "meaning": "envelope proxy"
+    }
+  ],
+  "assessment_rules": [
+    {
+      "id": "area",
+      "condition": "always",
+      "message": "متراژ انتخابی فقط بازه تقریبی است و ظرفیت نهایی را مشخص نمی‌کند."
+    },
+    {
+      "id": "heatloss",
+      "condition": "floor=top OR floor=ground OR insulation=poor",
+      "message": "به دلیل شرایط طبقه یا عایق‌بندی، اتلاف حرارت باید دقیق‌تر بررسی شود."
+    },
+    {
+      "id": "hotwater",
+      "condition": "bath=2 OR bath=3",
+      "message": "تعداد حمام به‌تنهایی کافی نیست؛ استفاده هم‌زمان و دبی موردنیاز آب گرم بررسی شود."
+    },
+    {
+      "id": "hydronic",
+      "condition": "always",
+      "message": "نوع سیستم گرمایش، تعداد رادیاتورها و دمای طراحی بررسی شود."
+    },
+    {
+      "id": "installation",
+      "condition": "always",
+      "message": "محل نصب، نوع دودکش، تهویه، تأمین گاز و الزامات ایمنی توسط متخصص بررسی شود."
+    },
+    {
+      "id": "local",
+      "condition": "always",
+      "message": "شهر، اقلیم و وضعیت ساختمان بر انتخاب نهایی اثر دارند."
+    }
+  ],
+  "extra_questions_for_later": [
+    {
+      "id": "city",
+      "label": "شهر یا منطقه نصب",
+      "priority": "high"
+    },
+    {
+      "id": "heated_area_exact",
+      "label": "مساحت دقیق فضای گرم‌شونده",
+      "priority": "high"
+    },
+    {
+      "id": "simultaneous_hot_water",
+      "label": "آیا دوش‌ها هم‌زمان استفاده می‌شوند؟",
+      "priority": "high"
+    },
+    {
+      "id": "radiator_floor_heating",
+      "label": "رادیاتور یا گرمایش از کف",
+      "priority": "medium"
+    },
+    {
+      "id": "installation_place",
+      "label": "محل نصب و وضعیت دودکش",
+      "priority": "high"
+    },
+    {
+      "id": "occupants",
+      "label": "تعداد ساکنان",
+      "priority": "medium"
+    }
+  ],
+  "capacity_policy": {
+    "do_not_assign_kw_from_area_alone": true,
+    "do_not_claim_specific_model_fit_without_product_specs": true,
+    "distinguish_heating_output_and_dhw_output": true
+  },
+  "public_fallback": "با اطلاعات فعلی نمی‌توان ظرفیت یا مدل مشخصی را با اطمینان پیشنهاد داد. برای انتخاب مناسب با متخصص تماس بگیرید.",
+  "contact_window": {
+    "timezone": "Asia/Tehran",
+    "start": "10:00",
+    "end": "22:00"
+  },
+  "next_stage": "verify manufacturer model specifications and build structured model catalog; locked V7 unchanged"
+}
