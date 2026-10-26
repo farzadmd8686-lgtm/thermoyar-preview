@@ -1,0 +1,35 @@
+{
+  "status": "DEPLOYMENT_PLAN_ONLY_NOT_PUBLISHED",
+  "domain": "https://thermoyar.ir",
+  "scope": "Replace live homepage with approved V62 AND add two approved pages V26/V33",
+  "sourceRepo": "farzadmd8686-lgtm/thermoyar-preview",
+  "liveRepo": "farzadmd8686-lgtm/thermotech-website",
+  "files": [
+    {
+      "source": "backup/v55-2026-10-26/index-v62-validation-staging.html",
+      "target": "index.html",
+      "canonical": "https://thermoyar.ir/"
+    },
+    {
+      "source": "backup/v55-2026-10-26/buying-guide-v26-validation-staging.html",
+      "target": "buying-guide.html",
+      "canonical": "https://thermoyar.ir/buying-guide.html"
+    },
+    {
+      "source": "backup/v55-2026-10-26/errors-v33-validation-staging.html",
+      "target": "errors.html",
+      "canonical": "https://thermoyar.ir/errors.html"
+    }
+  ],
+  "rules": [
+    "Preserve approved visual and functional locks",
+    "Rewrite all preview links across three pages to production filenames",
+    "Preserve required image assets and relative paths",
+    "Production-only remove noindex and set canonicals",
+    "Check existing live site infrastructure before modifications",
+    "Back up live files before any change",
+    "Do not write live repository or deploy without explicit user authorization",
+    "Verify all three live URLs, links, calls and SEO after deployment"
+  ],
+  "authorizedToDeploy": false
+}
