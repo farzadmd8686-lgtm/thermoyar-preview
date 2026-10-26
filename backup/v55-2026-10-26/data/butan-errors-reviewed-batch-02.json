@@ -1,0 +1,421 @@
+{
+  "schema_version": 1,
+  "created_on": "2026-10-26",
+  "scope": "independent batch; no changes to locked pages",
+  "count": 40,
+  "source_policy": "manufacturer > service representative > specialist",
+  "missing_message": "توضیحی برای این کد خطا وجود ندارد.",
+  "note": "Model-specific descriptions from secondary sources; LED indications are not necessarily fault states.",
+  "records": [
+    {
+      "brand": "butan",
+      "model": "Verona",
+      "code": "E01",
+      "meaning": "اشکال در تشکیل یا تشخیص شعله",
+      "source": "https://www.tges.ir/آموزش-پکیج-شوفاژ-گازی/کد-های-خطا-در-پکیج-بوتان-مدل-ورونا-verona",
+      "source_type": "technical_training",
+      "verification": "secondary_source",
+      "public_note": "توضیح اولیه است؛ برای بررسی دقیق دستگاه را دستکاری نکنید و با متخصص تماس بگیرید."
+    },
+    {
+      "brand": "butan",
+      "model": "Verona",
+      "code": "E02",
+      "meaning": "فعال شدن کلید حرارتی ایمنی",
+      "source": "https://www.tges.ir/آموزش-پکیج-شوفاژ-گازی/کد-های-خطا-در-پکیج-بوتان-مدل-ورونا-verona",
+      "source_type": "technical_training",
+      "verification": "secondary_source",
+      "public_note": "توضیح اولیه است؛ برای بررسی دقیق دستگاه را دستکاری نکنید و با متخصص تماس بگیرید."
+    },
+    {
+      "brand": "butan",
+      "model": "Verona",
+      "code": "E03",
+      "meaning": "اشکال در سامانه تشخیص دود یا تهویه",
+      "source": "https://www.tges.ir/آموزش-پکیج-شوفاژ-گازی/کد-های-خطا-در-پکیج-بوتان-مدل-ورونا-verona",
+      "source_type": "technical_training",
+      "verification": "secondary_source",
+      "public_note": "توضیح اولیه است؛ برای بررسی دقیق دستگاه را دستکاری نکنید و با متخصص تماس بگیرید."
+    },
+    {
+      "brand": "butan",
+      "model": "Verona",
+      "code": "E04",
+      "meaning": "افت فشار آب مدار گرمایش",
+      "source": "https://www.tges.ir/آموزش-پکیج-شوفاژ-گازی/کد-های-خطا-در-پکیج-بوتان-مدل-ورونا-verona",
+      "source_type": "technical_training",
+      "verification": "secondary_source",
+      "public_note": "توضیح اولیه است؛ برای بررسی دقیق دستگاه را دستکاری نکنید و با متخصص تماس بگیرید."
+    },
+    {
+      "brand": "butan",
+      "model": "Verona",
+      "code": "E06",
+      "meaning": "اشکال در حسگر دمای آب گرم مصرفی",
+      "source": "https://www.tges.ir/آموزش-پکیج-شوفاژ-گازی/کد-های-خطا-در-پکیج-بوتان-مدل-ورونا-verona",
+      "source_type": "technical_training",
+      "verification": "secondary_source",
+      "public_note": "توضیح اولیه است؛ برای بررسی دقیق دستگاه را دستکاری نکنید و با متخصص تماس بگیرید."
+    },
+    {
+      "brand": "butan",
+      "model": "Verona",
+      "code": "E07",
+      "meaning": "اشکال در حسگر دمای مدار گرمایش",
+      "source": "https://www.tges.ir/آموزش-پکیج-شوفاژ-گازی/کد-های-خطا-در-پکیج-بوتان-مدل-ورونا-verona",
+      "source_type": "technical_training",
+      "verification": "secondary_source",
+      "public_note": "توضیح اولیه است؛ برای بررسی دقیق دستگاه را دستکاری نکنید و با متخصص تماس بگیرید."
+    },
+    {
+      "brand": "butan",
+      "model": "Verona",
+      "code": "E09",
+      "meaning": "اختلال در گردش آب مدار گرمایش",
+      "source": "https://www.tges.ir/آموزش-پکیج-شوفاژ-گازی/کد-های-خطا-در-پکیج-بوتان-مدل-ورونا-verona",
+      "source_type": "technical_training",
+      "verification": "secondary_source",
+      "public_note": "توضیح اولیه است؛ برای بررسی دقیق دستگاه را دستکاری نکنید و با متخصص تماس بگیرید."
+    },
+    {
+      "brand": "butan",
+      "model": "Verona",
+      "code": "E11",
+      "meaning": "تشخیص غیرعادی شعله یا اختلال سیگنال شعله",
+      "source": "https://www.tges.ir/آموزش-پکیج-شوفاژ-گازی/کد-های-خطا-در-پکیج-بوتان-مدل-ورونا-verona",
+      "source_type": "technical_training",
+      "verification": "secondary_source",
+      "public_note": "توضیح اولیه است؛ برای بررسی دقیق دستگاه را دستکاری نکنید و با متخصص تماس بگیرید."
+    },
+    {
+      "brand": "butan",
+      "model": "Verona",
+      "code": "E12",
+      "meaning": "اختلال در مدار فرمان شیر گاز",
+      "source": "https://www.tges.ir/آموزش-پکیج-شوفاژ-گازی/کد-های-خطا-در-پکیج-بوتان-مدل-ورونا-verona",
+      "source_type": "technical_training",
+      "verification": "secondary_source",
+      "public_note": "توضیح اولیه است؛ برای بررسی دقیق دستگاه را دستکاری نکنید و با متخصص تماس بگیرید."
+    },
+    {
+      "brand": "butan",
+      "model": "Verona",
+      "code": "E28",
+      "meaning": "تکرار چندباره یک خطا",
+      "source": "https://www.tges.ir/آموزش-پکیج-شوفاژ-گازی/کد-های-خطا-در-پکیج-بوتان-مدل-ورونا-verona",
+      "source_type": "technical_training",
+      "verification": "secondary_source",
+      "public_note": "توضیح اولیه است؛ برای بررسی دقیق دستگاه را دستکاری نکنید و با متخصص تماس بگیرید."
+    },
+    {
+      "brand": "butan",
+      "model": "Verona",
+      "code": "E37",
+      "meaning": "افت ولتاژ ورودی",
+      "source": "https://www.tges.ir/آموزش-پکیج-شوفاژ-گازی/کد-های-خطا-در-پکیج-بوتان-مدل-ورونا-verona",
+      "source_type": "technical_training",
+      "verification": "secondary_source",
+      "public_note": "توضیح اولیه است؛ برای بررسی دقیق دستگاه را دستکاری نکنید و با متخصص تماس بگیرید."
+    },
+    {
+      "brand": "butan",
+      "model": "Verona",
+      "code": "E40",
+      "meaning": "نامناسب بودن فرکانس برق ورودی",
+      "source": "https://www.tges.ir/آموزش-پکیج-شوفاژ-گازی/کد-های-خطا-در-پکیج-بوتان-مدل-ورونا-verona",
+      "source_type": "technical_training",
+      "verification": "secondary_source",
+      "public_note": "توضیح اولیه است؛ برای بررسی دقیق دستگاه را دستکاری نکنید و با متخصص تماس بگیرید."
+    },
+    {
+      "brand": "butan",
+      "model": "Verona",
+      "code": "E41",
+      "meaning": "خاموش شدن مکرر شعله",
+      "source": "https://www.tges.ir/آموزش-پکیج-شوفاژ-گازی/کد-های-خطا-در-پکیج-بوتان-مدل-ورونا-verona",
+      "source_type": "technical_training",
+      "verification": "secondary_source",
+      "public_note": "توضیح اولیه است؛ برای بررسی دقیق دستگاه را دستکاری نکنید و با متخصص تماس بگیرید."
+    },
+    {
+      "brand": "butan",
+      "model": "Verona",
+      "code": "E42",
+      "meaning": "گیر کردن کلیدهای کنترل",
+      "source": "https://www.tges.ir/آموزش-پکیج-شوفاژ-گازی/کد-های-خطا-در-پکیج-بوتان-مدل-ورونا-verona",
+      "source_type": "technical_training",
+      "verification": "secondary_source",
+      "public_note": "توضیح اولیه است؛ برای بررسی دقیق دستگاه را دستکاری نکنید و با متخصص تماس بگیرید."
+    },
+    {
+      "brand": "butan",
+      "model": "Verona",
+      "code": "E43",
+      "meaning": "اختلال ارتباط کنترل از راه دور",
+      "source": "https://www.tges.ir/آموزش-پکیج-شوفاژ-گازی/کد-های-خطا-در-پکیج-بوتان-مدل-ورونا-verona",
+      "source_type": "technical_training",
+      "verification": "secondary_source",
+      "public_note": "توضیح اولیه است؛ برای بررسی دقیق دستگاه را دستکاری نکنید و با متخصص تماس بگیرید."
+    },
+    {
+      "brand": "butan",
+      "model": "Verona",
+      "code": "E44",
+      "meaning": "طولانی شدن زمان بازبودن شیر گاز بدون تشکیل شعله",
+      "source": "https://www.tges.ir/آموزش-پکیج-شوفاژ-گازی/کد-های-خطا-در-پکیج-بوتان-مدل-ورونا-verona",
+      "source_type": "technical_training",
+      "verification": "secondary_source",
+      "public_note": "توضیح اولیه است؛ برای بررسی دقیق دستگاه را دستکاری نکنید و با متخصص تماس بگیرید."
+    },
+    {
+      "brand": "butan",
+      "model": "Verona",
+      "code": "E62",
+      "meaning": "خارج شدن تنظیم شیر گاز از محدوده",
+      "source": "https://www.tges.ir/آموزش-پکیج-شوفاژ-گازی/کد-های-خطا-در-پکیج-بوتان-مدل-ورونا-verona",
+      "source_type": "technical_training",
+      "verification": "secondary_source",
+      "public_note": "توضیح اولیه است؛ برای بررسی دقیق دستگاه را دستکاری نکنید و با متخصص تماس بگیرید."
+    },
+    {
+      "brand": "butan",
+      "model": "Verona",
+      "code": "E72",
+      "meaning": "ناکافی بودن دمای مدار گرمایش",
+      "source": "https://www.tges.ir/آموزش-پکیج-شوفاژ-گازی/کد-های-خطا-در-پکیج-بوتان-مدل-ورونا-verona",
+      "source_type": "technical_training",
+      "verification": "secondary_source",
+      "public_note": "توضیح اولیه است؛ برای بررسی دقیق دستگاه را دستکاری نکنید و با متخصص تماس بگیرید."
+    },
+    {
+      "brand": "butan",
+      "model": "Verona",
+      "code": "E80",
+      "meaning": "اختلال نرم‌افزاری مرتبط با شیر گاز",
+      "source": "https://www.tges.ir/آموزش-پکیج-شوفاژ-گازی/کد-های-خطا-در-پکیج-بوتان-مدل-ورونا-verona",
+      "source_type": "technical_training",
+      "verification": "secondary_source",
+      "public_note": "توضیح اولیه است؛ برای بررسی دقیق دستگاه را دستکاری نکنید و با متخصص تماس بگیرید."
+    },
+    {
+      "brand": "butan",
+      "model": "Verona",
+      "code": "E81",
+      "meaning": "اشکال در احتراق یا مسیر هوا و دود",
+      "source": "https://www.tges.ir/آموزش-پکیج-شوفاژ-گازی/کد-های-خطا-در-پکیج-بوتان-مدل-ورونا-verona",
+      "source_type": "technical_training",
+      "verification": "secondary_source",
+      "public_note": "توضیح اولیه است؛ برای بررسی دقیق دستگاه را دستکاری نکنید و با متخصص تماس بگیرید."
+    },
+    {
+      "brand": "butan",
+      "model": "Verona",
+      "code": "E82",
+      "meaning": "قفل ایمنی پس از تکرار خطای احتراق",
+      "source": "https://www.tges.ir/آموزش-پکیج-شوفاژ-گازی/کد-های-خطا-در-پکیج-بوتان-مدل-ورونا-verona",
+      "source_type": "technical_training",
+      "verification": "secondary_source",
+      "public_note": "توضیح اولیه است؛ برای بررسی دقیق دستگاه را دستکاری نکنید و با متخصص تماس بگیرید."
+    },
+    {
+      "brand": "butan",
+      "model": "Verona",
+      "code": "E83",
+      "meaning": "احتراق ناقص مکرر",
+      "source": "https://www.tges.ir/آموزش-پکیج-شوفاژ-گازی/کد-های-خطا-در-پکیج-بوتان-مدل-ورونا-verona",
+      "source_type": "technical_training",
+      "verification": "secondary_source",
+      "public_note": "توضیح اولیه است؛ برای بررسی دقیق دستگاه را دستکاری نکنید و با متخصص تماس بگیرید."
+    },
+    {
+      "brand": "butan",
+      "model": "Verona",
+      "code": "E98",
+      "meaning": "خطای نرم‌افزاری هنگام راه‌اندازی",
+      "source": "https://www.tges.ir/آموزش-پکیج-شوفاژ-گازی/کد-های-خطا-در-پکیج-بوتان-مدل-ورونا-verona",
+      "source_type": "technical_training",
+      "verification": "secondary_source",
+      "public_note": "توضیح اولیه است؛ برای بررسی دقیق دستگاه را دستکاری نکنید و با متخصص تماس بگیرید."
+    },
+    {
+      "brand": "butan",
+      "model": "Verona",
+      "code": "E99",
+      "meaning": "خطای عمومی دستگاه",
+      "source": "https://www.tges.ir/آموزش-پکیج-شوفاژ-گازی/کد-های-خطا-در-پکیج-بوتان-مدل-ورونا-verona",
+      "source_type": "technical_training",
+      "verification": "secondary_source",
+      "public_note": "توضیح اولیه است؛ برای بررسی دقیق دستگاه را دستکاری نکنید و با متخصص تماس بگیرید."
+    },
+    {
+      "brand": "butan",
+      "model": "Pavia",
+      "code": "E01",
+      "meaning": "اشکال در تشکیل شعله",
+      "source": "https://pishehvaran.com/ارورهای-پکیج-بوتان/",
+      "source_type": "specialist_service",
+      "verification": "secondary_source",
+      "public_note": "برای بررسی دقیق با متخصص تماس بگیرید."
+    },
+    {
+      "brand": "butan",
+      "model": "Pavia",
+      "code": "E02",
+      "meaning": "فعال شدن حفاظت دمای بالا",
+      "source": "https://pishehvaran.com/ارورهای-پکیج-بوتان/",
+      "source_type": "specialist_service",
+      "verification": "secondary_source",
+      "public_note": "برای بررسی دقیق با متخصص تماس بگیرید."
+    },
+    {
+      "brand": "butan",
+      "model": "Pavia",
+      "code": "E03",
+      "meaning": "اشکال در تخلیه دود یا سیستم ایمنی آن",
+      "source": "https://pishehvaran.com/ارورهای-پکیج-بوتان/",
+      "source_type": "specialist_service",
+      "verification": "secondary_source",
+      "public_note": "برای بررسی دقیق با متخصص تماس بگیرید."
+    },
+    {
+      "brand": "butan",
+      "model": "Pavia",
+      "code": "E04",
+      "meaning": "اشکال در فشار آب مدار گرمایش",
+      "source": "https://pishehvaran.com/ارورهای-پکیج-بوتان/",
+      "source_type": "specialist_service",
+      "verification": "secondary_source",
+      "public_note": "برای بررسی دقیق با متخصص تماس بگیرید."
+    },
+    {
+      "brand": "butan",
+      "model": "Pavia",
+      "code": "E06",
+      "meaning": "اشکال در حسگر دمای آب گرم مصرفی",
+      "source": "https://pishehvaran.com/ارورهای-پکیج-بوتان/",
+      "source_type": "specialist_service",
+      "verification": "secondary_source",
+      "public_note": "برای بررسی دقیق با متخصص تماس بگیرید."
+    },
+    {
+      "brand": "butan",
+      "model": "Pavia",
+      "code": "E07",
+      "meaning": "اشکال در حسگر دمای گرمایش",
+      "source": "https://pishehvaran.com/ارورهای-پکیج-بوتان/",
+      "source_type": "specialist_service",
+      "verification": "secondary_source",
+      "public_note": "برای بررسی دقیق با متخصص تماس بگیرید."
+    },
+    {
+      "brand": "butan",
+      "model": "Optima",
+      "code": "green_steady",
+      "display": "چراغ سبز ثابت",
+      "meaning": "نشانه کارکرد مشعل؛ به‌تنهایی خطا نیست",
+      "source": "https://araservice.co/butane-package-error-codes/",
+      "source_type": "specialist_service",
+      "verification": "secondary_source",
+      "public_note": "وضعیت چراغ را به متخصص اطلاع دهید؛ دستگاه را دستکاری نکنید."
+    },
+    {
+      "brand": "butan",
+      "model": "Optima",
+      "code": "green_blink_1s_on_5s_off",
+      "display": "چراغ سبز یک ثانیه روشن و پنج ثانیه خاموش",
+      "meaning": "وضعیت آماده‌به‌کار؛ به‌تنهایی خطا نیست",
+      "source": "https://araservice.co/butane-package-error-codes/",
+      "source_type": "specialist_service",
+      "verification": "secondary_source",
+      "public_note": "وضعیت چراغ را به متخصص اطلاع دهید؛ دستگاه را دستکاری نکنید."
+    },
+    {
+      "brand": "butan",
+      "model": "Optima",
+      "code": "green_blink_half_second",
+      "display": "چراغ سبز با فاصله حدود نیم‌ثانیه چشمک می‌زند",
+      "meaning": "ممکن است با وضعیت فشار آب یا سامانه خروج دود مرتبط باشد؛ تشخیص دقیق نیازمند بررسی مدل است",
+      "source": "https://araservice.co/butane-package-error-codes/",
+      "source_type": "specialist_service",
+      "verification": "secondary_source",
+      "public_note": "وضعیت چراغ را به متخصص اطلاع دهید؛ دستگاه را دستکاری نکنید."
+    },
+    {
+      "brand": "butan",
+      "model": "Optima",
+      "code": "red_steady",
+      "display": "چراغ قرمز ثابت",
+      "meaning": "احتمال فعال شدن یکی از حفاظت‌های دستگاه؛ علت قطعی تنها از این چراغ مشخص نیست",
+      "source": "https://araservice.co/butane-package-error-codes/",
+      "source_type": "specialist_service",
+      "verification": "secondary_source",
+      "public_note": "وضعیت چراغ را به متخصص اطلاع دهید؛ دستگاه را دستکاری نکنید."
+    },
+    {
+      "brand": "butan",
+      "model": "Optima",
+      "code": "red_blink",
+      "display": "چراغ قرمز چشمک‌زن",
+      "meaning": "احتمال فعال شدن حفاظت حرارتی دستگاه",
+      "source": "https://araservice.co/butane-package-error-codes/",
+      "source_type": "specialist_service",
+      "verification": "secondary_source",
+      "public_note": "وضعیت چراغ را به متخصص اطلاع دهید؛ دستگاه را دستکاری نکنید."
+    },
+    {
+      "brand": "butan",
+      "model": "Calda Venezia",
+      "code": "green_steady",
+      "display": "چراغ سبز ثابت",
+      "meaning": "نشانه کارکرد مشعل؛ به‌تنهایی خطا نیست",
+      "source": "https://araservice.co/butane-package-error-codes/",
+      "source_type": "specialist_service",
+      "verification": "secondary_source",
+      "public_note": "وضعیت چراغ را به متخصص اطلاع دهید؛ دستگاه را دستکاری نکنید."
+    },
+    {
+      "brand": "butan",
+      "model": "Calda Venezia",
+      "code": "green_blink_1s_on_5s_off",
+      "display": "چراغ سبز یک ثانیه روشن و پنج ثانیه خاموش",
+      "meaning": "وضعیت آماده‌به‌کار؛ به‌تنهایی خطا نیست",
+      "source": "https://araservice.co/butane-package-error-codes/",
+      "source_type": "specialist_service",
+      "verification": "secondary_source",
+      "public_note": "وضعیت چراغ را به متخصص اطلاع دهید؛ دستگاه را دستکاری نکنید."
+    },
+    {
+      "brand": "butan",
+      "model": "Calda Venezia",
+      "code": "green_blink_half_second",
+      "display": "چراغ سبز با فاصله حدود نیم‌ثانیه چشمک می‌زند",
+      "meaning": "ممکن است با وضعیت فشار آب یا سامانه خروج دود مرتبط باشد؛ تشخیص دقیق نیازمند بررسی مدل است",
+      "source": "https://araservice.co/butane-package-error-codes/",
+      "source_type": "specialist_service",
+      "verification": "secondary_source",
+      "public_note": "وضعیت چراغ را به متخصص اطلاع دهید؛ دستگاه را دستکاری نکنید."
+    },
+    {
+      "brand": "butan",
+      "model": "Calda Venezia",
+      "code": "red_steady",
+      "display": "چراغ قرمز ثابت",
+      "meaning": "احتمال فعال شدن یکی از حفاظت‌های دستگاه؛ علت قطعی تنها از این چراغ مشخص نیست",
+      "source": "https://araservice.co/butane-package-error-codes/",
+      "source_type": "specialist_service",
+      "verification": "secondary_source",
+      "public_note": "وضعیت چراغ را به متخصص اطلاع دهید؛ دستگاه را دستکاری نکنید."
+    },
+    {
+      "brand": "butan",
+      "model": "Calda Venezia",
+      "code": "red_blink",
+      "display": "چراغ قرمز چشمک‌زن",
+      "meaning": "احتمال فعال شدن حفاظت حرارتی دستگاه",
+      "source": "https://araservice.co/butane-package-error-codes/",
+      "source_type": "specialist_service",
+      "verification": "secondary_source",
+      "public_note": "وضعیت چراغ را به متخصص اطلاع دهید؛ دستگاه را دستکاری نکنید."
+    }
+  ]
+}
