@@ -1,0 +1,4 @@
+# Draft for thermoyar.ir production deployment only; not active in GitHub Pages preview
+User-agent: *
+Allow: /
+Sitemap: https://thermoyar.ir/sitemap.xml
