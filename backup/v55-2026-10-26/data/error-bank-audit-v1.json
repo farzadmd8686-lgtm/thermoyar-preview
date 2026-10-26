@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "created_on": "2026-10-26",
+  "scope": "read-only inventory of locked errors.html; does not alter page or assert source verification",
+  "source_page": "backup/v55-2026-10-26/errors.html",
+  "total": 237,
+  "brands": {
+    "iran": {
+      "count": 186,
+      "models": {
+        "L24CF": 17,
+        "L24FF": 17,
+        "L28CF": 17,
+        "L28FF": 17,
+        "L36FF": 17,
+        "ECO24FF-PL": 14,
+        "M24FF": 15,
+        "M28FF": 15,
+        "L42FF": 17,
+        "M24CF": 15,
+        "ECO22FF-PL": 14,
+        "ECO24FF": 11
+      }
+    },
+    "butan": {
+      "count": 51,
+      "models": {
+        "Perla Pro RSi": 8,
+        "Parma Digital": 8,
+        "Perla Pro i": 8,
+        "Roma": 7,
+        "Benessere Pro": 20
+      }
+    }
+  },
+  "coverage_gaps": {
+    "butan_models_not_in_records": [
+      "Verona",
+      "Bita Open",
+      "Bita Sealed",
+      "Pavia",
+      "Optima",
+      "Calda Venezia",
+      "CV424S"
+    ],
+    "note": "Examples of missing model families; not an exhaustive list. Model-specific error formats require separate verification."
+  },
+  "verification_policy": {
+    "priority": [
+      "manufacturer manual or official brand support",
+      "authorized service materials",
+      "specialist repair resources"
+    ],
+    "display": "Short plain-language explanation and call-to-specialist, no hazardous repair steps",
+    "never": "Do not apply error code meanings across models solely because codes match."
+  },
+  "research_references": [
+    "https://tbdtco.com/butane-package-error-codes/",
+    "https://tbdtco.com/butane-package-models-guide/",
+    "https://homeservize.com/blog1/44047/butan-package-error/"
+  ]
+}
