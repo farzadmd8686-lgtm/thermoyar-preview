@@ -1,0 +1,25 @@
+name: Build ThermoYar Cloudflare ZIP
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'backup/v55-2026-10-26/seo-release-drafts/build-cloudflare-zip.py'
+      - '.github/workflows/build-thermoyar-cloudflare-release.yml'
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Build and validate approved three-page release
+        run: python backup/v55-2026-10-26/seo-release-drafts/build-cloudflare-zip.py
+      - name: Upload deployable ZIP
+        uses: actions/upload-artifact@v4
+        with:
+          name: thermoyar-v62-v26-v33-cloudflare
+          path: backup/v55-2026-10-26/seo-release-drafts/thermoyar-v62-v26-v33-cloudflare.zip
+          retention-days: 30
