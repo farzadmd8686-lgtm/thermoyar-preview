@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "status": "research_staging_not_connected_to_v7",
+  "created_on": "2026-10-26",
+  "units": "kW",
+  "method": "prefer brand product pages then dealers; avoid filling unsupported fields",
+  "critical_caution": "Butan dealer capacity is not confirmed as heating output vs input. Do not compare directly with Iran Radiator heating_output_kw until confirmed.",
+  "sizing_rule": "Never auto-select a model from floor area alone; require heat loss, hot water simultaneous demand, and safe installation check.",
+  "records": [
+    {
+      "brand": "iran_radiator",
+      "model": "L24FF",
+      "heating_output_kw": 24,
+      "heat_exchangers": 2,
+      "fan": true,
+      "efficiency_percent": 93,
+      "manufacturer_area_claim_max_m2": 120,
+      "source": "https://iranradiatorco.com/product/l24ff/",
+      "source_level": "brand_site_product_page"
+    },
+    {
+      "brand": "iran_radiator",
+      "model": "M24FF",
+      "heating_output_kw": 24,
+      "heat_exchangers": 2,
+      "fan": true,
+      "efficiency_percent": 93,
+      "manufacturer_area_claim_max_m2": 120,
+      "source": "https://iranradiatorco.com/product/m24ff/",
+      "source_level": "brand_site_product_page"
+    },
+    {
+      "brand": "iran_radiator",
+      "model": "A24FF",
+      "heating_output_kw": 24,
+      "heat_exchangers": 2,
+      "fan": true,
+      "efficiency_percent": 93,
+      "manufacturer_area_claim_max_m2": 120,
+      "source": "https://iranradiatorco.com/product/a24ff/",
+      "source_level": "brand_site_product_page"
+    },
+    {
+      "brand": "butan",
+      "model": "Perla Pro 24 RSi",
+      "rated_capacity_kw_approx": 24.19,
+      "heat_exchangers": 2,
+      "fan": true,
+      "control": "digital",
+      "source": "https://hks-hadi.ir/botan-package/",
+      "source_level": "dealer",
+      "manufacturer_confirmation_pending": true
+    },
+    {
+      "brand": "butan",
+      "model": "Perla Pro 28 RSi",
+      "rated_capacity_kw_approx": 28.3,
+      "heat_exchangers": 2,
+      "fan": true,
+      "control": "digital",
+      "source": "https://hks-hadi.ir/botan-package/",
+      "source_level": "dealer",
+      "manufacturer_confirmation_pending": true
+    },
+    {
+      "brand": "butan",
+      "model": "Perla Pro 32 RSi",
+      "rated_capacity_kw_approx": 32.14,
+      "heat_exchangers": 2,
+      "fan": true,
+      "control": "digital",
+      "source": "https://hks-hadi.ir/botan-package/",
+      "source_level": "dealer",
+      "manufacturer_confirmation_pending": true
+    },
+    {
+      "brand": "butan",
+      "model": "Perla Pro 42 RSi",
+      "rated_capacity_kw_approx": 41.5,
+      "heat_exchangers": 2,
+      "fan": true,
+      "control": "digital",
+      "source": "https://hks-hadi.ir/botan-package/",
+      "source_level": "dealer",
+      "manufacturer_confirmation_pending": true
+    }
+  ]
+}
