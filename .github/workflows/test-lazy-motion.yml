@@ -1,0 +1,49 @@
+name: Validate lazy-motion staging ZIP
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - experiment/lazy-motion-v62
+    paths:
+      - 'experiments/lazy-motion-v62/**'
+      - '.github/workflows/test-lazy-motion.yml'
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Build isolated test ZIP
+        run: python experiments/lazy-motion-v62/build-experiment.py
+      - name: Validate ZIP contents and staging metadata
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from zipfile import ZipFile
+          p=Path("experiments/lazy-motion-v62/thermoyar-lazy-motion-test.zip")
+          with ZipFile(p) as z:
+              assert z.testzip() is None
+              names=set(z.namelist())
+              assert {'index.html','buying-guide.html','errors.html','robots.txt'} <= names
+              assert any(n.startswith('assets/') for n in names)
+              for name in ('index.html','buying-guide.html','errors.html'):
+                  html=z.read(name).decode('utf-8')
+                  assert 'noindex,nofollow' in html
+                  assert 'rel="canonical"' not in html
+              html=z.read('index.html').decode('utf-8')
+              assert 'class="boiler" loading="lazy"' in html
+              assert 'class="tech" loading="lazy"' in html
+              assert 'fetchpriority="high" loading="eager"' in html
+              robots=z.read('robots.txt').decode('utf-8')
+              assert robots == 'User-agent: *\nDisallow: /\n'
+          print('Isolated ZIP validated')
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: thermoyar-lazy-motion-staging-only
+          path: experiments/lazy-motion-v62/thermoyar-lazy-motion-test.zip
+          retention-days: 7
