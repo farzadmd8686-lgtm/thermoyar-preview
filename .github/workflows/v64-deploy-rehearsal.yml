@@ -1,0 +1,27 @@
+name: V64 deployment pipeline rehearsal (no deploy)
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - experiment/cloudflare-github-deploy-v64
+    paths:
+      - '.github/workflows/v64-deploy-rehearsal.yml'
+      - 'experiments/lazy-motion-v62/build-release-candidate.py'
+permissions:
+  contents: read
+jobs:
+  build-and-verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Build and validate locked V64 candidate
+        run: python experiments/lazy-motion-v62/build-release-candidate.py
+      - name: Upload verified V64 package (not deployed)
+        uses: actions/upload-artifact@v4
+        with:
+          name: thermoyar-v64-github-cloudflare-rehearsal-NOT-DEPLOYED
+          path: experiments/lazy-motion-v62/thermoyar-lazy-motion-release-CANDIDATE.zip
+          retention-days: 7
