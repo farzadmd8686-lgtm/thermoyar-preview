@@ -38,7 +38,7 @@ if missing:
 out = EXP / "thermoyar-lazy-motion-test.zip"
 with ZipFile(out, "w", ZIP_DEFLATED) as z:
     for name, html in pages.items():
-        html = re.sub(r\'<link[^>]*rel=["\\\x27]canonical["\\\x27][^>]*>\', "", html, flags=re.I)
+        html = re.sub(r"<link[^>]*rel=\\\"canonical\\\"[^>]*>", "", html, flags=re.I)
         html = html.replace("</head>", '<meta name="robots" content="noindex,nofollow"></head>', 1)
         z.writestr(name, html)
     for ref in sorted(refs):
