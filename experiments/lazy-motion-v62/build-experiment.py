@@ -45,6 +45,4 @@ with ZipFile(out, "w", ZIP_DEFLATED) as z:
         z.write(BASE / ref, ref)
     # Staging must not be indexed, and must not claim production canonical URLs.
     z.writestr("robots.txt", "User-agent: *\\nDisallow: /\\n")
-    for name in pages:
-        pass
 print(f"Built {out} with {len(pages)} pages and {len(refs)} assets")
