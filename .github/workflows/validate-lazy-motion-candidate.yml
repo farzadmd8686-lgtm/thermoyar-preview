@@ -1,0 +1,27 @@
+name: Validate lazy-motion release candidate (no deploy)
+on:
+  push:
+    branches:
+      - experiment/lazy-motion-v62
+    paths:
+      - 'experiments/lazy-motion-v62/build-release-candidate.py'
+      - '.github/workflows/validate-lazy-motion-candidate.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  candidate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Build and strictly validate production-format candidate
+        run: python experiments/lazy-motion-v62/build-release-candidate.py
+      - name: Upload candidate for review only
+        uses: actions/upload-artifact@v4
+        with:
+          name: thermoyar-lazy-motion-release-CANDIDATE-NOT-DEPLOYED
+          path: experiments/lazy-motion-v62/thermoyar-lazy-motion-release-CANDIDATE.zip
+          retention-days: 7
