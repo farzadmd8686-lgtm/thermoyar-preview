@@ -1,0 +1,43 @@
+name: V64 production deployment (manual approval only)
+on:
+  workflow_dispatch:
+    inputs:
+      confirmation:
+        description: 'Type DEPLOY-THERMOYAR-V64 to authorize production deployment'
+        required: true
+        type: string
+permissions:
+  contents: read
+concurrency:
+  group: thermoyar-production-deployment
+  cancel-in-progress: false
+jobs:
+  deploy-v64:
+    if: ${{ github.ref == 'refs/heads/experiment/cloudflare-github-deploy-v64' && inputs.confirmation == 'DEPLOY-THERMOYAR-V64' }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Build and strictly validate locked V64 release
+        run: python experiments/lazy-motion-v62/build-release-candidate.py
+      - name: Extract verified static assets
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p "$RUNNER_TEMP/thermoyar-v64-assets"
+          unzip -q experiments/lazy-motion-v62/thermoyar-lazy-motion-release-CANDIDATE.zip -d "$RUNNER_TEMP/thermoyar-v64-assets"
+          test -s "$RUNNER_TEMP/thermoyar-v64-assets/index.html"
+          test -s "$RUNNER_TEMP/thermoyar-v64-assets/robots.txt"
+          test -s "$RUNNER_TEMP/thermoyar-v64-assets/sitemap.xml"
+      - name: Deploy ONLY to existing production Worker (requires production-scoped token)
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_PRODUCTION_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -n "${CLOUDFLARE_API_TOKEN:-}" || { echo "::error::Missing CLOUDFLARE_PRODUCTION_API_TOKEN"; exit 1; }
+          test -n "${CLOUDFLARE_ACCOUNT_ID:-}" || { echo "::error::Missing CLOUDFLARE_ACCOUNT_ID"; exit 1; }
+          npx --yes wrangler@4 deploy --assets "$RUNNER_TEMP/thermoyar-v64-assets" --name thermoyar-v63-release --compatibility-date 2026-10-27
