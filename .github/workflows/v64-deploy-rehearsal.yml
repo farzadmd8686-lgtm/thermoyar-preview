@@ -30,7 +30,7 @@ jobs:
             exit 1
           fi
           python - <<'PY'
-          import json, os, urllib.request
+          import json, os, urllib.request, urllib.error
           token = os.environ["CLOUDFLARE_API_TOKEN"]
           req = urllib.request.Request(
               "https://api.cloudflare.com/client/v4/user/tokens/verify",
@@ -39,6 +39,9 @@ jobs:
           try:
               with urllib.request.urlopen(req, timeout=20) as response:
                   data = json.load(response)
+          except urllib.error.HTTPError as exc:
+              print(f"::error::Cloudflare token verification returned HTTP {exc.code}; no credentials or response body logged")
+              raise SystemExit(1)
           except Exception as exc:
               print("::error::Cloudflare token verification request failed: " + type(exc).__name__)
               raise SystemExit(1)
