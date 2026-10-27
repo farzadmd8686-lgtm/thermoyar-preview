@@ -38,11 +38,11 @@ if missing:
 out = EXP / "thermoyar-lazy-motion-test.zip"
 with ZipFile(out, "w", ZIP_DEFLATED) as z:
     for name, html in pages.items():
-        html = re.sub(r"<link[^>]*rel=\\\"canonical\\\"[^>]*>", "", html, flags=re.I)
+        html = re.sub(r"<link[^>]*rel=.{1}canonical.{1}[^>]*>", "", html, flags=re.I)
         html = html.replace("</head>", '<meta name="robots" content="noindex,nofollow"></head>', 1)
         z.writestr(name, html)
     for ref in sorted(refs):
         z.write(BASE / ref, ref)
     # Staging must not be indexed, and must not claim production canonical URLs.
-    z.writestr("robots.txt", "User-agent: *\\nDisallow: /\\n")
+    z.writestr("robots.txt", "User-agent: *\nDisallow: /\n")
 print(f"Built {out} with {len(pages)} pages and {len(refs)} assets")
