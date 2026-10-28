@@ -13,8 +13,9 @@ concurrency:
   cancel-in-progress: false
 jobs:
   deploy-v64:
-    if: ${{ github.ref == 'refs/heads/experiment/cloudflare-github-deploy-v64' && inputs.confirmation == 'DEPLOY-THERMOYAR-V64' }}
+    if: ${{ github.ref == 'refs/heads/production' && inputs.confirmation == 'DEPLOY-THERMOYAR-V64' }}
     runs-on: ubuntu-latest
+    environment: thermoyar-production
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
